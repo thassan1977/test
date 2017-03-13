@@ -24,6 +24,11 @@ public class Address {
 		return state;
 	}
 
+	@Override
+	public String toString() {
+		return "Address [city=" + city + ", state=" + state + "]";
+	}
+
 	public void setState(String state) {
 		this.state = state;
 	}
